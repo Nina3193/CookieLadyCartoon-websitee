@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Illustration Gallery</title>
+
+   <!-- CSS Below-->
+   <style>
+      /* General Body Styling */
+      body {
+         background-color: #98BF64; /* Same as previous pages */
+         font-family: Arial, sans-serif;
+         margin: 0;
+         padding: 0;
+         color: #333;
+      }
+
+      /* Navigation Styling */
+      nav {
+         background-color: mediumseagreen;
+         padding-top: 35px;
+         padding-bottom: 35px;
+         padding-left: 35px;
+         text-align: center;
+      }
+
+      nav a {
+         color: white;
+         text-decoration: none;
+         margin: 0 15px;
+         font-size: 1.1em;
+      }
+
+      nav a:hover {
+         text-decoration: underline;
+      }
+
+      /* Main Heading Styling */
+      h1 {
+         text-align: center;
+         font-size: 2.5em;
+         color: white;
+         margin-top: 40px;
+      }
+
+      /* Grid Wrapper for Images */
+      .wrapper {
+         display: grid;
+         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive Grid */
+         grid-gap: 20px; /* Space between items */
+         padding: 20px;
+         justify-items: center;
+      }
+
+      /* Individual Image Styling */
+      .wrapper img {
+         width: 100%;
+         height: auto;
+         border-radius: 10px; /* Optional: Adds rounded corners to images */
+         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for a clean look */
+      }
+     .wrapper img {
+   width: 100%;
+   height: auto;
+   border-radius: 10px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+   transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.wrapper img:hover {
+   transform: scale(1.5);
+   filter: brightness(1.1); /* Makes the image slightly brighter on hover */
+}
+   </style>
+</head>
+
+<body>
+
+   <!-- Navigation Bar -->
+   <nav>
+      <a href="Home.html">Home</a> |
+      <a href="About.html">About</a> |
+      <a href="Gallery.html">Illustration Gallery</a> |
+      <a href="Academic.html">Academic Works</a> |
+      <a href="Contact.html">Contact</a>
+   </nav>
+
+   <!-- Main Heading -->
+   <h1>Illustration Gallery</h1>
+
+   <!-- Image Grid Wrapper -->
+   <div class="wrapper">
+      <div><img src="img/pourone.png" alt="Pour One" width="300px" height="300px"></div>
+      <div><img src="img/GlitchGirl.jpg" alt="Glitch Girl" width="300px" height="300px"></div>
+      <div><img src="img/CryforHelp.JPG" alt="Cry for Help" width="300px" height="300px"></div>
+
+      <div><img src="img/Pond.JPG" alt="Pond" width="300px" height="300px"></div>
+      <div><img src="img/SmokeBreak.JPG" alt="Smoke Break" width="300px" height="300px"></div>
+      <div><img src="img/RedDurag.JPG" alt="Red Durag" width="300px" height="300px"></div>
+
+      <div><img src="img/grandmajeanshouse.JPG" alt="Grandma Jean's House" width="500px" height="300px"></div>
+      <div><img src="img/Friends.JPEG" alt="Friends" width="500px" height="300px"></div>
+      <div><img src="img/Nola.png" alt="Nola" width="300px" height="500px"></div>
+     
+   </div>
+
+</body>
+
+</html>
